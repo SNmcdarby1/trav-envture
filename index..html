@@ -19,11 +19,8 @@
         <body class="container-fluid ">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <h1 class="text-hide " style="background-image: url(assets/images/xa.PNG); width: 80px; height: 80px;">
-                    Xascapade</h1>
-                <a class="navbar-brand" href="index.html">
-                    <h1>XASCAPADE</h1>
-                </a>
+
+
                 <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -55,7 +52,7 @@
                                 <a class="dropdown-item" href="flight.html">Flight bookings</a>
                                 <a class="dropdown-item" href="accommodation.html">Accommodation</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Car rental</a>
+                                <a class="dropdown-item" href="#">Game drives</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -65,25 +62,24 @@
 
                 </div>
             </nav>
-            <div class="col-3">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control float right mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
+
 
 
             <main>
-
-                <h1><span>XAS</span>CAPADE</h1>
-                <h5>Explore the World</h5>
 
                 <body class="light-grey">
 
                     <!-- Navigation Bar w3school snippet -->
                     <div class="bar white border-bottom xlarge">
-                        <a href="#" class="bar-item button text-red hover-red"><b><i class="fa fa-map-marker margin-right"></i>Logo</b></a>
-                        <a href="#" class="bar-item w3-button right hover-red text-grey"><i class="fa fa-search"></i></a>
+                        <a href="#" class="bar-item button text-red hover-red"><b><i class="fa fa-map-marker margin-right"></i><a class="navbar-brand" href="index.html">
+
+                                    <picture class="d-inline-block text-truncate" style="max-width: 600px;">
+                                        <source srcset="assets/images/xas.png" type="image/svg+xml">
+                                        <img src="assets/images/beach.jpg" class="img-fluid img-thumbnail" alt="Rooms">
+                                    </picture>
+                                    <h5>Explore the World</h5>
+                                </a></b></a>
+                        <a href="search.html" class="bar-item w3-button right hover-red text-grey"><i class="fa fa-search"></i></a>
                     </div>
                     <div class="inline-block">
                         <picture class="d-inline-block text-truncate" style="max-width: 600px;">
@@ -103,9 +99,10 @@
                     <header class="container card display-container content hide-small" style="max-width:1500px">
                         <div class="display-cover" style="width:65%">
                             <div class="bar mr-12 tr-3 container-fluid">
-                                <button class="bar-item button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
-                                <button class="bar-item button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed margin-right"></i>Hotel</button>
-                                <button class="bar-item button tablink" onclick="openLink(event, 'Car');"><i class="fa fa-car margin-right"></i>Rental</button>
+                                <button href="book.html" class="bar-item button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
+                                <button href="book.html" class="bar-item button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed margin-right"></i>Hotel</button>
+                                <button href="book.html" class="bar-item button tablink" onclick="openLink(event, 'Game drive');"><i class="fa fa-car margin-right"></i>Game
+                                    drive</button>
                             </div>
 
                             <!-- Tabs -->
@@ -148,6 +145,203 @@
                             </div>
                         </div>
             </main>
+            <!-- Newsletter -->
+            <!-- Footer -->
+            <footer class="container-fluid  opacity margin-bottom">
+                <h5>Find Us On</h5>
+
+                <form action="/action_page.php">
+                    <div class="row">
+                        <h6 style="text-align:center">Login with Social Media or Manually</h2>
+                            <div>
+                                <span>or</span>
+                            </div>
+
+                            <div class="col">
+                                <a href="#" class="fb btn btn">
+                                    <i class="fa fa-facebook fa-fw"></i> Facebook Login
+                                </a>
+                                <a href="#" class="twitter btn btn">
+                                    <i class="fa fa-twitter fa-fw"></i> Twitter Login
+                                </a>
+                                <a href="#" class="google btn btn">
+                                    <i class="fa fa-google fa-fw"></i> Google+ Login
+                                </a>
+                            </div>
+
+
+                    </div>
+                    <div class="col">
+                        <div class="btn" class="vl">
+                            <btn>Or sign in manually:</btn>
+                        </div>
+
+                        <input type="text" name="username" placeholder="Username" required>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <input type="submit" value="Login">
+                    </div>
+
+                </form>
+                <div class="sm padding-16">
+                    <!-- w3school snippet -->
+                    <!-- Footer -->
+                    <footer class="container-fluid  opacity margin-bottom">
+
+                        <form action="/action_page.php">
+                            <input type="file" id="myFile" name="filename">
+                            <input type="submit">
+                        </form>
+                        <div class="vl-innertext">
+                            <h5>Find Us On</h5>
+                            <div class="xlarge padding-16">
+                                <i class="fa fa-facebook-official hover-opacity"></i>
+                                <i class="fa fa-instagram hover-opacity"></i>
+                                <i class="fa fa-snapchat hover-opacity"></i>
+                                <i class="fa fa-pinterest-p hover-opacity"></i>
+                                <i class="fa fa-twitter hover-opacity"></i>
+                                <i class="fa fa-linkedin hover-opacity"></i>
+                            </div>
+                        </div>
+                        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="hover-text-green">Xascapade</a></p>
+
+
+
+                        <script>
+                            // Tabs
+                            function openLink(evt, linkName) {
+                                var i, x, tablinks;
+                                x = document.getElementsByClassName("myLink");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                tablinks = document.getElementsByClassName("tablink");
+                                for (i = 0; i < x.length; i++) {
+                                    tablinks[i].className = tablinks[i].className.replace(" teal", "");
+                                }
+                                document.getElementById(linkName).style.display = "block";
+                                evt.currentTarget.className += " teal";
+                            }
+                            // autocomplete w3schhol snippet
+                            function autocomplete(inp, arr) {
+                                /*the autocomplete function takes two arguments,
+                                the text field element and an array of possible autocompleted values:*/
+                                var currentFocus;
+                                /*execute a function when someone writes in the text field:*/
+                                inp.addEventListener("input", function(e) {
+                                    var a, b, i, val = this.value;
+                                    /*close any already open lists of autocompleted values*/
+                                    closeAllLists();
+                                    if (!val) {
+                                        return false;
+                                    }
+                                    currentFocus = -1;
+                                    /*create a DIV element that will contain the items (values):*/
+                                    a = document.createElement("DIV");
+                                    a.setAttribute("id", this.id + "autocomplete-list");
+                                    a.setAttribute("class", "autocomplete-items");
+                                    /*append the DIV element as a child of the autocomplete container:*/
+                                    this.parentNode.appendChild(a);
+                                    /*for each item in the array...*/
+                                    for (i = 0; i < arr.length; i++) {
+                                        /*check if the item starts with the same letters as the text field value:*/
+                                        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                                            /*create a DIV element for each matching element:*/
+                                            b = document.createElement("DIV");
+                                            /*make the matching letters bold:*/
+                                            b.innerHTML = "<strong>" + arr[i].substr(0, val.length) +
+                                                "</strong>";
+                                            b.innerHTML += arr[i].substr(val.length);
+                                            /*insert a input field that will hold the current array item's value:*/
+                                            b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                                            /*execute a function when someone clicks on the item value (DIV element):*/
+                                            b.addEventListener("click", function(e) {
+                                                /*insert the value for the autocomplete text field:*/
+                                                inp.value = this.getElementsByTagName("input")[0].value;
+                                                /*close the list of autocompleted values,
+                                                (or any other open lists of autocompleted values:*/
+                                                closeAllLists();
+                                            });
+                                            a.appendChild(b);
+                                        }
+                                    }
+                                });
+                                // Get the video
+                                var video = document.getElementById("myVideo");
+
+                                // Get the button
+                                var btn = document.getElementById("myBtn");
+
+                                // Pause and play the video, and change the button text
+                                function myFunction() {
+                                    if (video.paused) {
+                                        video.play();
+                                        btn.innerHTML = "Pause";
+                                    } else {
+                                        video.pause();
+                                        btn.innerHTML = "Play";
+                                    }
+                                }
+                                /*execute a function presses a key on the keyboard:*/
+                                inp.addEventListener("keydown", function(e) {
+                                    var x = document.getElementById(this.id + "autocomplete-list");
+                                    if (x) x = x.getElementsByTagName("div");
+                                    if (e.keyCode == 40) {
+                                        /*If the arrow DOWN key is pressed,
+                                        increase the currentFocus variable:*/
+                                        currentFocus++;
+                                        /*and and make the current item more visible:*/
+                                        addActive(x);
+                                    } else if (e.keyCode == 38) { //up
+                                        /*If the arrow UP key is pressed,
+                                        decrease the currentFocus variable:*/
+                                        currentFocus--;
+                                        /*and and make the current item more visible:*/
+                                        addActive(x);
+                                    } else if (e.keyCode == 13) {
+                                        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                                        e.preventDefault();
+                                        if (currentFocus > -1) {
+                                            /*and simulate a click on the "active" item:*/
+                                            if (x) x[currentFocus].click();
+                                        }
+                                    }
+                                });
+
+                                function addActive(x) {
+                                    /*a function to classify an item as "active":*/
+                                    if (!x) return false;
+                                    /*start by removing the "active" class on all items:*/
+                                    removeActive(x);
+                                    if (currentFocus >= x.length) currentFocus = 0;
+                                    if (currentFocus < 0) currentFocus = (x.length - 1);
+                                    /*add class "autocomplete-active":*/
+                                    x[currentFocus].classList.add("autocomplete-active");
+                                }
+
+                                function removeActive(x) {
+                                    /*a function to remove the "active" class from all autocomplete items:*/
+                                    for (var i = 0; i < x.length; i++) {
+                                        x[i].classList.remove("autocomplete-active");
+                                    }
+                                }
+
+                                function closeAllLists(elmnt) {
+                                    /*close all autocomplete lists in the document,
+                                    except the one passed as an argument:*/
+                                    var x = document.getElementsByClassName("autocomplete-items");
+                                    for (var i = 0; i < x.length; i++) {
+                                        if (elmnt != x[i] && elmnt != inp) {
+                                            x[i].parentNode.removeChild(x[i]);
+                                        }
+                                    }
+                                }
+                                /*execute a function when someone clicks in the document:*/
+                                document.addEventListener("click", function(e) {
+                                    closeAllLists(e.target);
+                                });
+                            }
+                        </script>
+
 
         </body>
         <i class="fas fa-minus-hexagon    "></i>
