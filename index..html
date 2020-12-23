@@ -1,0 +1,155 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <title>XASCAPADE</title>
+
+    </head>
+    <section>
+
+        <body class="container-fluid ">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <h1 class="text-hide " style="background-image: url(assets/images/xa.PNG); width: 80px; height: 80px;">
+                    Xascapade</h1>
+                <a class="navbar-brand" href="index.html">
+                    <h1>XASCAPADE</h1>
+                </a>
+                <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="profile.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="company.html">About</a>
+                                <a class="dropdown-item" href="personal.html">Profile</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="contact.html">Admin</a>
+                            </div>
+                        </li>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="product.html" id="navbar Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="flight.html">Flight bookings</a>
+                                <a class="dropdown-item" href="accommodation.html">Accommodation</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Car rental</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enabled" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <div class="col-3">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control float right mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+
+
+            <main>
+
+                <h1><span>XAS</span>CAPADE</h1>
+                <h5>Explore the World</h5>
+
+                <body class="light-grey">
+
+                    <!-- Navigation Bar w3school snippet -->
+                    <div class="bar white border-bottom xlarge">
+                        <a href="#" class="bar-item button text-red hover-red"><b><i class="fa fa-map-marker margin-right"></i>Logo</b></a>
+                        <a href="#" class="bar-item w3-button right hover-red text-grey"><i class="fa fa-search"></i></a>
+                    </div>
+                    <div class="inline-block">
+                        <picture class="d-inline-block text-truncate" style="max-width: 600px;">
+                            <source srcset="assets/images/beach.jpg" type="image/svg+xml">
+                            <img src="assets/images/beach.jpg" class="img-fluid img-thumbnail" alt="Rooms">
+                        </picture>
+                        <picture class="d-inline-block text-truncate" style="max-width: 600px;">
+                            <source srcset="assets/images/norway.jpg" type="image/svg+xml">
+                            <img src="assets/images/norway.jpg" class="img-fluid img-thumbnail" alt="Rooms">
+                        </picture>
+                        <picture class="d-inline-block text-truncate" style="max-width: 600px;">
+                            <source srcset="assets/images/jade-m.jpg" type="image/svg+xml">
+                            <img src="assets/images/jade-m.jpg" class="img-fluid img-thumbnail" alt="Rooms">
+                        </picture>
+
+                    </div>
+                    <header class="container card display-container content hide-small" style="max-width:1500px">
+                        <div class="display-cover" style="width:65%">
+                            <div class="bar mr-12 tr-3 container-fluid">
+                                <button class="bar-item button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
+                                <button class="bar-item button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed margin-right"></i>Hotel</button>
+                                <button class="bar-item button tablink" onclick="openLink(event, 'Car');"><i class="fa fa-car margin-right"></i>Rental</button>
+                            </div>
+
+                            <!-- Tabs -->
+                            <div id="Flight" class="container white padding-16 myLink">
+                                <h3>Travel the world with us</h3>
+                                <div class="row-padding" style="margin:10 -16px;">
+                                    <div class="half">
+                                        <label>From</label>
+                                        <input class="input border" type="text" placeholder="Departing from">
+                                    </div>
+                                    <div class="half">
+                                        <label>To</label>
+                                        <input class="input border" type="text" placeholder="Arriving at">
+                                    </div>
+                                </div>
+                                <p><button class="button dark-grey">Search and find dates</button></p>
+                            </div>
+                            <form autocomplete="off" action="/action_page.php">
+                                <div class="autocomplete" style="width:300px;">
+                                    <input id="myInput" type="text" name="myCountry" placeholder="Arrival point">
+                                </div>
+                                <input type="submit">
+                            </form>
+
+                            <div id="Hotel" class="container white padding-16 myLink">
+                                <h3>Find the best safari package</h3>
+                                <p>Book a hotel with us and get the best safari rates and promotions.</p>
+                                <p>We know hotels - we know comfort.</p>
+                                <p><button class="button dark-grey">Search Hotels</button></p>
+                            </div>
+
+                            <div id="Car" class="container white padding-16 myLink">
+                                <h3>Best Safari experience in the world!</h3>
+                                <p><span class="tag deep-orange">DISCOUNT!</span> Special offer if you book today: 25%
+                                    off
+                                </p>
+                                <input class="input border" type="text" placeholder="Pick-up point">
+
+                                <p><button class="button dark-grey">Search Availability</button></p>
+                            </div>
+                        </div>
+            </main>
+
+        </body>
+        <i class="fas fa-minus-hexagon    "></i>
+
+    </html>
